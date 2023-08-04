@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "@common/*": [
+            "./components/common/*"
+        ],
+        "@styles/*": [
+            "./components/styles/*"
+        ],
+        "@pages/*": [
+            "./components/pages/*"
+        ],
+        "@utils/*": [
+            "./utils/*"
+        ],
+        "@api/*":[
+            "./api/*"
+        ],
+        "@constants/*": [
+            "./constants/*"
+        ]
+    }
+},
+"exclude": [
+    "node_modules"
+]
+  }

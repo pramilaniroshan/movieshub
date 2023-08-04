@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary text-white;
+}
+
+.container {
+  @apply max-w-[1600px] mx-auto px-5;
+}
+
+.vhcenter {
+  @apply flex flex-col justify-center items-center;
+}
